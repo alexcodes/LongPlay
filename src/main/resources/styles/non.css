@@ -1,0 +1,207 @@
+.root {
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-background-image: url("/organiser/styles/images/woodCenter.jpg");
+    -fx-background-repeat: repeat;
+    -fx-background-color: #d18c49;
+}
+
+#wooden {
+    -fx-border-width: 1px;
+    -fx-border-color: #4a2107;
+    -fx-background-image: url("/organiser/styles/images/woodBottom.jpg");
+    -fx-background-color: #9d450e;
+}
+
+#wooden .toggle-button {
+    -fx-border-radius: 5px;
+    -fx-border-color: #502408;
+    -fx-border-width: 1px;
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(0, 0, 0, 0.25);
+    -fx-opacity: 0.25;
+}
+
+#wooden .toggle-button:hover {
+    -fx-effect: dropshadow(gaussian, white, 2, 1.0, 0, 0);
+}
+
+#wooden .toggle-button:selected {
+    -fx-opacity: 1.0;
+}
+
+#white {
+    -fx-fill: #ffffff;
+}
+
+#grey {
+    -fx-text-fill: #afafaf;
+}
+
+#date-panel {
+    -fx-border-style: solid;
+    -fx-border-color: #c9e9e1;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-background-color:
+        linear-gradient(rgba(41, 105, 131, 0.49) 0%, rgba(23, 45, 127, 0.49) 50%, rgba(0, 3, 79, 0.49) 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(223, 241, 241, 0.87), rgba(255, 255, 255, 0)),
+        radial-gradient(focus-angle 225deg, focus-distance 70%, center 100% 100%,
+        radius 140%, transparent, rgba(255,255,255,0.4), transparent);
+    -fx-effect: dropshadow(two-pass-box, rgba(36, 36, 36, 0.5), 10, 0.5, 2, 2);
+    -fx-padding: 5px;
+}
+
+#date-panel #silver {
+    -fx-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-weight: bold;
+}
+
+#split-pane {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 10px;
+    -fx-border-style: dashed;
+    -fx-border-color:
+        linear-gradient(from 0% 0% to 15% 50%, #987745, #989251);
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(two-pass-box, black, 15, 0.25, 2, 2);
+    -fx-background-image: url("/organiser/styles/images/bgdairy.png");
+    -fx-background-color: #612611;
+    -fx-padding: 5px;
+}
+
+.split-pane .split-pane-divider,
+.split-pane .vertical-grabber,
+.split-pane .horizontal-grabber {
+    -fx-background-radius: 2px;
+    -fx-background-color: #714c35;
+    -fx-border-width: 0;
+    -fx-padding: 2px;
+}
+
+#calendar-panel {
+    -fx-font-size: 14px;
+    -fx-border-color: #c9e9e1;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(16, 71, 159, 0.47);
+    -fx-effect: dropshadow(two-pass-box, rgba(36, 36, 36, 0.5), 10, 0.5, 2, 2);
+    -fx-padding: 5px;
+}
+
+#calendar-panel #header {
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-base,-70%), derive(-fx-base,-90%));
+}
+
+#calendar-panel .button {
+    -fx-font-family: "Courier New";
+    -fx-background-radius: 2px;
+    -fx-padding: 3px;
+    -fx-font-weight: bold;
+
+    -fx-background-color:
+        rgba(0,0,0,0.08),
+        linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+}
+
+#calendar-panel .button:hover {
+    -fx-border-radius: 2px;
+    -fx-border-color: darkblue;
+    -fx-border-width: 2px;
+}
+
+#day-panel {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px 0px 0px 10px;
+    -fx-background-radius: 10px 0px 0px 10px;
+    -fx-background-color:
+        linear-gradient(#ffffaa, #cbc943);
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Buxton Sketch";
+}
+
+.scroll-pane .track {
+    -fx-background-radius: 0;
+    -fx-background-color: #a4a235;
+}
+
+.scroll-pane .thumb {
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #5e5e42;
+    -fx-background-radius: 10px;
+    -fx-background-color: rgb(206, 207, 123);
+}
+
+#note-panel {
+    -fx-border-color: null;
+    -fx-border-width: 0px;
+    -fx-border-radius: 0px 10px 10px 0px;
+    -fx-background-radius: 0px 10px 10px 0px;
+    -fx-background-color:
+        linear-gradient(#ffffaa, #cbc943);
+    -fx-font-size: 18px;
+    -fx-font-family: "Buxton Sketch";
+}
+
+#day-header {
+    -fx-background-radius: 5px;
+    -fx-padding: 20px;
+
+    -fx-border-width: 0px;
+    -fx-border-radius: 5px;
+    -fx-border-color: blue;
+}
+
+#day-header #text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+
+}
+
+#event-panel {
+    -fx-padding: 5px 5px 5px 0px;
+    -fx-font-size: 18px;
+}
+
+#event-panel #textfield {
+    -fx-background-color: transparent;
+}
+
+#event-panel .toggle-button {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.25;
+}
+#event-panel .button {
+    -fx-background-color: transparent;
+}
+#event-panel .toggle-button:hover,
+#event-panel .button:hover {
+    -fx-effect: dropshadow(gaussian, white, 2, 1.0, 0, 0);
+}
+#event-panel .toggle-button:selected {
+    -fx-opacity: 1.0;
+}
+
+#add-button {
+    -fx-padding: 5px;
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(255, 255, 160, 0.60);
+    -fx-border-radius: 20px;
+    -fx-border-color: grey;
+}
+
+#add-button .button:hover {
+    -fx-background-color: rgb(255, 254, 228);
+}
+
+#add-button .button:pressed {
+    -fx-border-color: #d4232f;
+    -fx-background-color: rgb(255, 254, 228);
+}
+
