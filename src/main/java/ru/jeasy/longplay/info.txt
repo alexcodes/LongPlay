@@ -1,4 +1,4 @@
-JavaFX experiments (2013)
+﻿JavaFX experiments (2013)
 
 General:
 TO-DO Fix russian language
@@ -16,7 +16,3 @@ StatusPanel:
 TODO Update status panel when (play song, )
 
 ========================================================================================================================
-
-Test:
-{"response":[{"uid":14138812,"first_name":"Алексей","last_name":"Алексеев"}]}
-
