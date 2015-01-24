@@ -1,0 +1,18 @@
+﻿JavaFX experiments (2013)
+
+General:
+TO-DO Fix russian language
+TODO add video support
+TODO own json parser
+
+ListView:
+TODO Fix text formatting at list
+TODO disable at start
+
+Player:
+TODO Make own player
+
+StatusPanel:
+TODO Update status panel when (play song, )
+
+========================================================================================================================
