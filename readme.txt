@@ -1,1 +1,0 @@
-This is a stream player which uses VK API
